@@ -1,16 +1,17 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.40.1.212/W32 for ARM                  15/May/2022  11:03:14
+# IAR ELF Linker V8.40.1.212/W32 for ARM                  15/May/2022  11:37:05
 # Copyright 2007-2019 IAR Systems AB.
 #
-#    Output file  =  C:\Users\ST-USER\Desktop\test\Debug\Exe\test.out
-#    Map file     =  C:\Users\ST-USER\Desktop\test\Debug\List\test.map
+#    Output file  =  C:\Users\ST-USER\Desktop\project\test\Debug\Exe\test.out
+#    Map file     =  C:\Users\ST-USER\Desktop\project\test\Debug\List\test.map
 #    Command line =
-#        -f C:\Users\ST-USER\AppData\Local\Temp\EWF6FE.tmp
-#        (C:\Users\ST-USER\Desktop\test\Debug\Obj\main.o --no_out_extension -o
-#        C:\Users\ST-USER\Desktop\test\Debug\Exe\test.out --map
-#        C:\Users\ST-USER\Desktop\test\Debug\List\test.map --config "C:\Program
-#        Files (x86)\IAR Systems\Embedded Workbench
+#        -f C:\Users\ST-USER\AppData\Local\Temp\EWF58E.tmp
+#        (C:\Users\ST-USER\Desktop\project\test\Debug\Obj\main.o
+#        --no_out_extension -o
+#        C:\Users\ST-USER\Desktop\project\test\Debug\Exe\test.out --map
+#        C:\Users\ST-USER\Desktop\project\test\Debug\List\test.map --config
+#        "C:\Program Files (x86)\IAR Systems\Embedded Workbench
 #        8.3\arm\config\linker\GD\GD32F103xE.icf" --semihosting --entry
 #        __iar_program_start --vfe --text_out locale)
 #
@@ -92,7 +93,7 @@ command line/config:
     ----------------------------------
     Total:
 
-C:\Users\ST-USER\Desktop\test\Debug\Obj: [1]
+C:\Users\ST-USER\Desktop\project\test\Debug\Obj: [1]
     main.o                  2
     ----------------------------------
     Total:                  2
@@ -148,7 +149,7 @@ exit                     0x800'0065   0x4  Code  Gb  exit.o [2]
 main                     0x800'0063   0x2  Code  Gb  main.o [1]
 
 
-[1] = C:\Users\ST-USER\Desktop\test\Debug\Obj
+[1] = C:\Users\ST-USER\Desktop\project\test\Debug\Obj
 [2] = dl7M_tln.a
 [3] = rt7M_tl.a
 [4] = shb_l.a
