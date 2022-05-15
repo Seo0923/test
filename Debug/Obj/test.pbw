@@ -7,37 +7,9 @@
     "location": {
       "column": "6",
       "line": "1",
-      "path": "C:\\Users\\ST-USER\\Desktop\\project\\freshman\\test\\main.c"
+      "path": "C:\\Users\\ST-USER\\Desktop\\test\\main.c"
     },
     "name": "main",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@24@F@main@a",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "a",
-    "location": {
-      "column": "9",
-      "line": "3",
-      "path": "C:\\Users\\ST-USER\\Desktop\\project\\freshman\\test\\main.c"
-    },
-    "name": "a",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@36@F@main@b",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "b",
-    "location": {
-      "column": "9",
-      "line": "4",
-      "path": "C:\\Users\\ST-USER\\Desktop\\project\\freshman\\test\\main.c"
-    },
-    "name": "b",
     "origin": "project_file",
     "scope": null
   }

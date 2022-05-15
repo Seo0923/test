@@ -1,14 +1,14 @@
-"C:\Users\ST-USER\Desktop\project\freshman\test\main.c"
+"C:\Users\ST-USER\Desktop\test\main.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -MD
 -MF
-C:\Users\ST-USER\Desktop\project\freshman\test\Debug\Obj\main.pbi.dep
+C:\Users\ST-USER\Desktop\test\Debug\Obj\main.pbi.dep
 -o
 main.pbi
 -I
-C:\Users\ST-USER\Desktop\project\freshman\test
+C:\Users\ST-USER\Desktop\test
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\inc
 -I
