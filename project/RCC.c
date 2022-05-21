@@ -1,27 +1,17 @@
 #include "RCC.h"
 
-void System_Init();
-void SystemInit();
-void SetSysClock();
-
-void main(void)
-{
-  System_Init();
-  
-  while(1)
-  {
-    
-  }
-}
 
 void System_Init(void)
 {
   SystemInit();
+  
+  
+ //클럭 en시켜주고 gpio사용하면됨
 }
 
 
+/* Clock reset*/
 
-//2.CFGR 및 CR설정 3.클럭들 EN 설정
 void SystemInit(void)
 {
   RCC_CR |= (uint32_t)0x00000081; 
@@ -37,31 +27,23 @@ void SystemInit(void)
   SetSysClock(); // HSE setting clock 
 }
 
+/* Clock setting*/
 void SetSysClock(void)
 {
-  __IO uint32_t StartUpCounter =0 , HSESTATE = 0;
+  __IO uint32_t StartUpCounter =0 , HSEStatus = 0;
   
   RCC_CR |= RCC_CR_HSEON; //HSE ENABLE ON
   
   do 
   {
-    HSESTATE = RCC_CR & RCC_CR_HSERDY;
+    HSEStatus = RCC_CR & RCC_CR_HSERDY;
     StartUpCounter ++;
-  } while((HSESTATE == 0 ) && (StartUpCounter != 0x0500));
+  } while((HSEStatus == 0) && (StartUpCounter != 0x0500));
   
-  /* 바로 READY가 되지않으므로 어느정도 시간을 대기해줌 */
-  
-  if((RCC_CR & RCC_CR_HSERDY) != (uint32_t)0x00)
-  {
-    HSESTATE = 0x01;
-  }
-  else
-  {
-    HSESTATE = 0x00;
-  }
+
   /* HSE READY OK*/
   
-  if(HSESTATE == 0x01)
+  if(HSEStatus == RCC_CR_HSERDY)
   {
     RCC_CFGR |= RCC_CFGR_PLLXTPRE;
     /* */
@@ -70,6 +52,20 @@ void SetSysClock(void)
     RCC_CFGR |= RCC_CFGR_PLLSRC;
     
     RCC_CFGR |= RCC_CFGR_PLLMUL9;
+    
+    while(RCC_CR & RCC_CR_PLLRDY == 0)
+    {
+    }
+    
+    RCC_CFGR |= RCC_CFGR_SWPLL;
+    
+    RCC_CFGR &= RCC_CFGR_ADCPRE;
+    
+    RCC_CFGR &= RCC_CFGR_PPRE2;
+    
+    RCC_CFGR &= RCC_CFGR_PPRE1;
+    
+    RCC_CFGR &=  RCC_CFGR_HPRE;
     
     //PLL CLK 체크후에 마자 설정하기
   }

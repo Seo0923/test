@@ -1,4 +1,4 @@
-main.pbi: C:\Users\ST-USER\Desktop\test\project\main.c \
+RCC.pbi: C:\Users\ST-USER\Desktop\test\project\RCC.c \
   C:\Users\ST-USER\Desktop\test\project/RCC.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stdint.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\ycheck.h \

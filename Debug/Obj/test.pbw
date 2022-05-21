@@ -3401,261 +3401,9 @@
     "location": {
       "column": "13",
       "line": "2",
-      "path": "C:\\Users\\ST-USER\\Desktop\\test\\RCC.h"
+      "path": "C:\\Users\\ST-USER\\Desktop\\test\\project\\RCC.h"
     },
     "name": "__IO",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:RCC.h@96@macro@_RCC_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_RCC_H",
-    "location": {
-      "column": "9",
-      "line": "5",
-      "path": "C:\\Users\\ST-USER\\Desktop\\test\\RCC.h"
-    },
-    "name": "_RCC_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:RCC.h@112@macro@RCC_OFFSET",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RCC_OFFSET",
-    "location": {
-      "column": "9",
-      "line": "6",
-      "path": "C:\\Users\\ST-USER\\Desktop\\test\\RCC.h"
-    },
-    "name": "RCC_OFFSET",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:RCC.h@145@macro@RCC_CR",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RCC_CR",
-    "location": {
-      "column": "9",
-      "line": "8",
-      "path": "C:\\Users\\ST-USER\\Desktop\\test\\RCC.h"
-    },
-    "name": "RCC_CR",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:RCC.h@200@macro@RCC_CFGR",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RCC_CFGR",
-    "location": {
-      "column": "9",
-      "line": "9",
-      "path": "C:\\Users\\ST-USER\\Desktop\\test\\RCC.h"
-    },
-    "name": "RCC_CFGR",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:RCC.h@257@macro@RCC_CIR",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RCC_CIR",
-    "location": {
-      "column": "9",
-      "line": "10",
-      "path": "C:\\Users\\ST-USER\\Desktop\\test\\RCC.h"
-    },
-    "name": "RCC_CIR",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:RCC.h@313@macro@RCC_APB2RSTR",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RCC_APB2RSTR",
-    "location": {
-      "column": "9",
-      "line": "11",
-      "path": "C:\\Users\\ST-USER\\Desktop\\test\\RCC.h"
-    },
-    "name": "RCC_APB2RSTR",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:RCC.h@374@macro@RCC_APB1RSTR",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RCC_APB1RSTR",
-    "location": {
-      "column": "9",
-      "line": "12",
-      "path": "C:\\Users\\ST-USER\\Desktop\\test\\RCC.h"
-    },
-    "name": "RCC_APB1RSTR",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:RCC.h@435@macro@RCC_AHBENR",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RCC_AHBENR",
-    "location": {
-      "column": "9",
-      "line": "13",
-      "path": "C:\\Users\\ST-USER\\Desktop\\test\\RCC.h"
-    },
-    "name": "RCC_AHBENR",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:RCC.h@494@macro@RCC_APB2ENR",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RCC_APB2ENR",
-    "location": {
-      "column": "9",
-      "line": "14",
-      "path": "C:\\Users\\ST-USER\\Desktop\\test\\RCC.h"
-    },
-    "name": "RCC_APB2ENR",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:RCC.h@554@macro@RCC_APB1ENR",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RCC_APB1ENR",
-    "location": {
-      "column": "9",
-      "line": "15",
-      "path": "C:\\Users\\ST-USER\\Desktop\\test\\RCC.h"
-    },
-    "name": "RCC_APB1ENR",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:RCC.h@614@macro@RCC_BDCR",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RCC_BDCR",
-    "location": {
-      "column": "9",
-      "line": "16",
-      "path": "C:\\Users\\ST-USER\\Desktop\\test\\RCC.h"
-    },
-    "name": "RCC_BDCR",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:RCC.h@671@macro@RCC_CSR",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RCC_CSR",
-    "location": {
-      "column": "9",
-      "line": "17",
-      "path": "C:\\Users\\ST-USER\\Desktop\\test\\RCC.h"
-    },
-    "name": "RCC_CSR",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:RCC.h@764@macro@RCC_CR_HSEON",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RCC_CR_HSEON",
-    "location": {
-      "column": "9",
-      "line": "21",
-      "path": "C:\\Users\\ST-USER\\Desktop\\test\\RCC.h"
-    },
-    "name": "RCC_CR_HSEON",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:RCC.h@798@macro@RCC_CR_HSERDY",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RCC_CR_HSERDY",
-    "location": {
-      "column": "9",
-      "line": "22",
-      "path": "C:\\Users\\ST-USER\\Desktop\\test\\RCC.h"
-    },
-    "name": "RCC_CR_HSERDY",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:RCC.h@833@macro@RCC_CR_PLLON",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RCC_CR_PLLON",
-    "location": {
-      "column": "9",
-      "line": "23",
-      "path": "C:\\Users\\ST-USER\\Desktop\\test\\RCC.h"
-    },
-    "name": "RCC_CR_PLLON",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:RCC.h@869@macro@RCC_CFGR_PLLXTPRE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RCC_CFGR_PLLXTPRE",
-    "location": {
-      "column": "9",
-      "line": "25",
-      "path": "C:\\Users\\ST-USER\\Desktop\\test\\RCC.h"
-    },
-    "name": "RCC_CFGR_PLLXTPRE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:RCC.h@908@macro@RCC_CFGR_PLLSRC",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RCC_CFGR_PLLSRC",
-    "location": {
-      "column": "9",
-      "line": "26",
-      "path": "C:\\Users\\ST-USER\\Desktop\\test\\RCC.h"
-    },
-    "name": "RCC_CFGR_PLLSRC",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:RCC.h@945@macro@RCC_CFGR_PLLMUL9",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RCC_CFGR_PLLMUL9",
-    "location": {
-      "column": "9",
-      "line": "27",
-      "path": "C:\\Users\\ST-USER\\Desktop\\test\\RCC.h"
-    },
-    "name": "RCC_CFGR_PLLMUL9",
     "origin": "user_include",
     "scope": null
   },
@@ -3666,11 +3414,25 @@
     "display": "void System_Init(void)",
     "location": {
       "column": "6",
-      "line": "3",
-      "path": "C:\\Users\\ST-USER\\Desktop\\test\\main.c"
+      "line": "5",
+      "path": "C:\\Users\\ST-USER\\Desktop\\test\\project\\RCC.h"
     },
     "name": "System_Init",
-    "origin": "project_file",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@System_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void System_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "5",
+      "path": "C:\\Users\\ST-USER\\Desktop\\test\\project\\RCC.h"
+    },
+    "name": "System_Init",
+    "origin": "user_include",
     "scope": null
   },
   {
@@ -3680,11 +3442,25 @@
     "display": "void SystemInit(void)",
     "location": {
       "column": "6",
-      "line": "4",
-      "path": "C:\\Users\\ST-USER\\Desktop\\test\\main.c"
+      "line": "6",
+      "path": "C:\\Users\\ST-USER\\Desktop\\test\\project\\RCC.h"
     },
     "name": "SystemInit",
-    "origin": "project_file",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SystemInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SystemInit(void)",
+    "location": {
+      "column": "6",
+      "line": "6",
+      "path": "C:\\Users\\ST-USER\\Desktop\\test\\project\\RCC.h"
+    },
+    "name": "SystemInit",
+    "origin": "user_include",
     "scope": null
   },
   {
@@ -3694,11 +3470,361 @@
     "display": "void SetSysClock(void)",
     "location": {
       "column": "6",
-      "line": "5",
-      "path": "C:\\Users\\ST-USER\\Desktop\\test\\main.c"
+      "line": "7",
+      "path": "C:\\Users\\ST-USER\\Desktop\\test\\project\\RCC.h"
     },
     "name": "SetSysClock",
-    "origin": "project_file",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SetSysClock",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SetSysClock(void)",
+    "location": {
+      "column": "6",
+      "line": "7",
+      "path": "C:\\Users\\ST-USER\\Desktop\\test\\project\\RCC.h"
+    },
+    "name": "SetSysClock",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:RCC.h@160@macro@_RCC_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_RCC_H",
+    "location": {
+      "column": "9",
+      "line": "9",
+      "path": "C:\\Users\\ST-USER\\Desktop\\test\\project\\RCC.h"
+    },
+    "name": "_RCC_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:RCC.h@176@macro@RCC_OFFSET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_OFFSET",
+    "location": {
+      "column": "9",
+      "line": "10",
+      "path": "C:\\Users\\ST-USER\\Desktop\\test\\project\\RCC.h"
+    },
+    "name": "RCC_OFFSET",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:RCC.h@209@macro@RCC_CR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_CR",
+    "location": {
+      "column": "9",
+      "line": "12",
+      "path": "C:\\Users\\ST-USER\\Desktop\\test\\project\\RCC.h"
+    },
+    "name": "RCC_CR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:RCC.h@264@macro@RCC_CFGR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_CFGR",
+    "location": {
+      "column": "9",
+      "line": "13",
+      "path": "C:\\Users\\ST-USER\\Desktop\\test\\project\\RCC.h"
+    },
+    "name": "RCC_CFGR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:RCC.h@321@macro@RCC_CIR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_CIR",
+    "location": {
+      "column": "9",
+      "line": "14",
+      "path": "C:\\Users\\ST-USER\\Desktop\\test\\project\\RCC.h"
+    },
+    "name": "RCC_CIR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:RCC.h@377@macro@RCC_APB2RSTR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_APB2RSTR",
+    "location": {
+      "column": "9",
+      "line": "15",
+      "path": "C:\\Users\\ST-USER\\Desktop\\test\\project\\RCC.h"
+    },
+    "name": "RCC_APB2RSTR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:RCC.h@438@macro@RCC_APB1RSTR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_APB1RSTR",
+    "location": {
+      "column": "9",
+      "line": "16",
+      "path": "C:\\Users\\ST-USER\\Desktop\\test\\project\\RCC.h"
+    },
+    "name": "RCC_APB1RSTR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:RCC.h@499@macro@RCC_AHBENR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_AHBENR",
+    "location": {
+      "column": "9",
+      "line": "17",
+      "path": "C:\\Users\\ST-USER\\Desktop\\test\\project\\RCC.h"
+    },
+    "name": "RCC_AHBENR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:RCC.h@558@macro@RCC_APB2ENR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_APB2ENR",
+    "location": {
+      "column": "9",
+      "line": "18",
+      "path": "C:\\Users\\ST-USER\\Desktop\\test\\project\\RCC.h"
+    },
+    "name": "RCC_APB2ENR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:RCC.h@618@macro@RCC_APB1ENR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_APB1ENR",
+    "location": {
+      "column": "9",
+      "line": "19",
+      "path": "C:\\Users\\ST-USER\\Desktop\\test\\project\\RCC.h"
+    },
+    "name": "RCC_APB1ENR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:RCC.h@678@macro@RCC_BDCR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_BDCR",
+    "location": {
+      "column": "9",
+      "line": "20",
+      "path": "C:\\Users\\ST-USER\\Desktop\\test\\project\\RCC.h"
+    },
+    "name": "RCC_BDCR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:RCC.h@735@macro@RCC_CSR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_CSR",
+    "location": {
+      "column": "9",
+      "line": "21",
+      "path": "C:\\Users\\ST-USER\\Desktop\\test\\project\\RCC.h"
+    },
+    "name": "RCC_CSR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:RCC.h@828@macro@RCC_CR_HSEON",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_CR_HSEON",
+    "location": {
+      "column": "9",
+      "line": "25",
+      "path": "C:\\Users\\ST-USER\\Desktop\\test\\project\\RCC.h"
+    },
+    "name": "RCC_CR_HSEON",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:RCC.h@861@macro@RCC_CR_HSERDY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_CR_HSERDY",
+    "location": {
+      "column": "9",
+      "line": "26",
+      "path": "C:\\Users\\ST-USER\\Desktop\\test\\project\\RCC.h"
+    },
+    "name": "RCC_CR_HSERDY",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:RCC.h@895@macro@RCC_CR_PLLON",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_CR_PLLON",
+    "location": {
+      "column": "9",
+      "line": "27",
+      "path": "C:\\Users\\ST-USER\\Desktop\\test\\project\\RCC.h"
+    },
+    "name": "RCC_CR_PLLON",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:RCC.h@928@macro@RCC_CR_PLLRDY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_CR_PLLRDY",
+    "location": {
+      "column": "9",
+      "line": "28",
+      "path": "C:\\Users\\ST-USER\\Desktop\\test\\project\\RCC.h"
+    },
+    "name": "RCC_CR_PLLRDY",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:RCC.h@964@macro@RCC_CFGR_PLLXTPRE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_CFGR_PLLXTPRE",
+    "location": {
+      "column": "9",
+      "line": "30",
+      "path": "C:\\Users\\ST-USER\\Desktop\\test\\project\\RCC.h"
+    },
+    "name": "RCC_CFGR_PLLXTPRE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:RCC.h@1002@macro@RCC_CFGR_PLLSRC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_CFGR_PLLSRC",
+    "location": {
+      "column": "9",
+      "line": "31",
+      "path": "C:\\Users\\ST-USER\\Desktop\\test\\project\\RCC.h"
+    },
+    "name": "RCC_CFGR_PLLSRC",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:RCC.h@1038@macro@RCC_CFGR_PLLMUL9",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_CFGR_PLLMUL9",
+    "location": {
+      "column": "9",
+      "line": "32",
+      "path": "C:\\Users\\ST-USER\\Desktop\\test\\project\\RCC.h"
+    },
+    "name": "RCC_CFGR_PLLMUL9",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:RCC.h@1075@macro@RCC_CFGR_SWPLL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_CFGR_SWPLL",
+    "location": {
+      "column": "9",
+      "line": "33",
+      "path": "C:\\Users\\ST-USER\\Desktop\\test\\project\\RCC.h"
+    },
+    "name": "RCC_CFGR_SWPLL",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:RCC.h@1110@macro@RCC_CFGR_ADCPRE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_CFGR_ADCPRE",
+    "location": {
+      "column": "9",
+      "line": "34",
+      "path": "C:\\Users\\ST-USER\\Desktop\\test\\project\\RCC.h"
+    },
+    "name": "RCC_CFGR_ADCPRE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:RCC.h@1146@macro@RCC_CFGR_PPRE2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_CFGR_PPRE2",
+    "location": {
+      "column": "9",
+      "line": "35",
+      "path": "C:\\Users\\ST-USER\\Desktop\\test\\project\\RCC.h"
+    },
+    "name": "RCC_CFGR_PPRE2",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:RCC.h@1181@macro@RCC_CFGR_PPRE1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_CFGR_PPRE1",
+    "location": {
+      "column": "9",
+      "line": "36",
+      "path": "C:\\Users\\ST-USER\\Desktop\\test\\project\\RCC.h"
+    },
+    "name": "RCC_CFGR_PPRE1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:RCC.h@1216@macro@RCC_CFGR_HPRE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_CFGR_HPRE",
+    "location": {
+      "column": "9",
+      "line": "37",
+      "path": "C:\\Users\\ST-USER\\Desktop\\test\\project\\RCC.h"
+    },
+    "name": "RCC_CFGR_HPRE",
+    "origin": "user_include",
     "scope": null
   },
   {
@@ -3708,80 +3834,10 @@
     "display": "void main(void)",
     "location": {
       "column": "6",
-      "line": "7",
-      "path": "C:\\Users\\ST-USER\\Desktop\\test\\main.c"
+      "line": "5",
+      "path": "C:\\Users\\ST-USER\\Desktop\\test\\project\\main.c"
     },
     "name": "main",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@System_Init",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void System_Init(void)",
-    "location": {
-      "column": "6",
-      "line": "17",
-      "path": "C:\\Users\\ST-USER\\Desktop\\test\\main.c"
-    },
-    "name": "System_Init",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SystemInit",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void SystemInit(void)",
-    "location": {
-      "column": "6",
-      "line": "25",
-      "path": "C:\\Users\\ST-USER\\Desktop\\test\\main.c"
-    },
-    "name": "SystemInit",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SetSysClock",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void SetSysClock(void)",
-    "location": {
-      "column": "6",
-      "line": "40",
-      "path": "C:\\Users\\ST-USER\\Desktop\\test\\main.c"
-    },
-    "name": "SetSysClock",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@544@F@SetSysClock@StartUpCounter",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "StartUpCounter",
-    "location": {
-      "column": "17",
-      "line": "42",
-      "path": "C:\\Users\\ST-USER\\Desktop\\test\\main.c"
-    },
-    "name": "StartUpCounter",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@544@F@SetSysClock@HSESTATE",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "HSESTATE",
-    "location": {
-      "column": "37",
-      "line": "42",
-      "path": "C:\\Users\\ST-USER\\Desktop\\test\\main.c"
-    },
-    "name": "HSESTATE",
     "origin": "project_file",
     "scope": null
   },
@@ -3797,6 +3853,76 @@
     },
     "name": "_DLIB_CONFIG_H",
     "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@System_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void System_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "4",
+      "path": "C:\\Users\\ST-USER\\Desktop\\test\\project\\RCC.c"
+    },
+    "name": "System_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SystemInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SystemInit(void)",
+    "location": {
+      "column": "6",
+      "line": "15",
+      "path": "C:\\Users\\ST-USER\\Desktop\\test\\project\\RCC.c"
+    },
+    "name": "SystemInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SetSysClock",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SetSysClock(void)",
+    "location": {
+      "column": "6",
+      "line": "31",
+      "path": "C:\\Users\\ST-USER\\Desktop\\test\\project\\RCC.c"
+    },
+    "name": "SetSysClock",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:RCC.c@451@F@SetSysClock@StartUpCounter",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "StartUpCounter",
+    "location": {
+      "column": "17",
+      "line": "33",
+      "path": "C:\\Users\\ST-USER\\Desktop\\test\\project\\RCC.c"
+    },
+    "name": "StartUpCounter",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:RCC.c@451@F@SetSysClock@HSEStatus",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "HSEStatus",
+    "location": {
+      "column": "37",
+      "line": "33",
+      "path": "C:\\Users\\ST-USER\\Desktop\\test\\project\\RCC.c"
+    },
+    "name": "HSEStatus",
+    "origin": "project_file",
     "scope": null
   }
 ]

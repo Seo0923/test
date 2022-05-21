@@ -2,6 +2,10 @@
 #define     __IO    volatile
 //GPIO register address set start
 
+void System_Init();
+void SystemInit();
+void SetSysClock();
+
 #define _RCC_H
 #define RCC_OFFSET 0x40021000
 
@@ -18,10 +22,16 @@
 
 //GPIO register address set end
 
-#define RCC_CR_HSEON 0x00010000;
-#define RCC_CR_HSERDY 0x00020000;
-#define RCC_CR_PLLON 0x01000000;
+#define RCC_CR_HSEON 0x00010000
+#define RCC_CR_HSERDY 0x00020000
+#define RCC_CR_PLLON 0x01000000
+#define RCC_CR_PLLRDY 0x02000000
 
-#define RCC_CFGR_PLLXTPRE 0x00020000;
-#define RCC_CFGR_PLLSRC 0x00010000;
-#define RCC_CFGR_PLLMUL9 0x001C0000;
+#define RCC_CFGR_PLLXTPRE 0x00020000
+#define RCC_CFGR_PLLSRC 0x00010000
+#define RCC_CFGR_PLLMUL9 0x001C0000
+#define RCC_CFGR_SWPLL 0x00000002
+#define RCC_CFGR_ADCPRE 0xFFFF3FFF
+#define RCC_CFGR_PPRE2 0xFFFFDFFF
+#define RCC_CFGR_PPRE1 0xFFFFFBFF
+#define RCC_CFGR_HPRE 0xFFFFFF7F
