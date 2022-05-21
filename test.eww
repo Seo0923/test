@@ -3,5 +3,8 @@
     <project>
         <path>$WS_DIR$\test.ewp</path>
     </project>
+    <project>
+        <path>$WS_DIR$\..\ST_LIB_SET\test.ewp</path>
+    </project>
     <batchBuild />
 </workspace>
