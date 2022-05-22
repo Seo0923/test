@@ -20,9 +20,10 @@ rule browsedata
 
 
 #Build steps
+build GPIO.pbi : index GPIO.xcl
 build main.pbi : index main.xcl
 build RCC.pbi : index RCC.xcl
-build test.pbd : link main.pbi RCC.pbi
+build test.pbd : link GPIO.pbi main.pbi RCC.pbi
 build test.pbw : browsedata test.pbd
 
 

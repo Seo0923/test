@@ -1,14 +1,5 @@
 #include "RCC.h"
-
-
-void System_Init(void)
-{
-  SystemInit();
-  
-  
- //클럭 en시켜주고 gpio사용하면됨
-}
-
+#include "GPIO.h"
 
 /* Clock reset*/
 
@@ -66,9 +57,19 @@ void SetSysClock(void)
     RCC_CFGR &= RCC_CFGR_PPRE1;
     
     RCC_CFGR &=  RCC_CFGR_HPRE;
-    
-    //PLL CLK 체크후에 마자 설정하기
   }
   
   
+}
+
+void RCC_APB2_set_clock(uint32_t RCC_APB2_Value, char NewState)
+{
+  if(NewState == ENABLE)
+  {
+    RCC_APB2ENR |= RCC_APB2_Value; 
+  }
+  else
+  {
+    RCC_APB2ENR &= ~RCC_APB2_Value;
+  }
 }

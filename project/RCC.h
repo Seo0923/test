@@ -1,10 +1,13 @@
 #include <stdint.h>
 #define     __IO    volatile
-//GPIO register address set start
+#define ENABLE 1
 
 void System_Init();
 void SystemInit();
 void SetSysClock();
+void RCC_APB2_set_clock(uint32_t RCC_APB2_Value, char NewState);
+
+/* Clock register address set start*/
 
 #define _RCC_H
 #define RCC_OFFSET 0x40021000
@@ -20,7 +23,7 @@ void SetSysClock();
 #define RCC_BDCR *(unsigned long *) (RCC_OFFSET + 0x20)
 #define RCC_CSR *(unsigned long *) (RCC_OFFSET + 0x24)
 
-//GPIO register address set end
+/* Clock register address set end*/
 
 #define RCC_CR_HSEON 0x00010000
 #define RCC_CR_HSERDY 0x00020000
@@ -35,3 +38,9 @@ void SetSysClock();
 #define RCC_CFGR_PPRE2 0xFFFFDFFF
 #define RCC_CFGR_PPRE1 0xFFFFFBFF
 #define RCC_CFGR_HPRE 0xFFFFFF7F
+
+#define GPIOA_Clock 0x00000004
+#define GPIOB_Clock 0x00000008
+#define GPIOC_Clock 0x00000010
+#define GPIOD_Clock 0x00000020
+#define GPIOE_Clock 0x00000040

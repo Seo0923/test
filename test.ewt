@@ -2370,7 +2370,19 @@
         </settings>
     </configuration>
     <group>
+        <name>inc</name>
+        <file>
+            <name>$PROJ_DIR$\project\GPIO.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\project\RCC.h</name>
+        </file>
+    </group>
+    <group>
         <name>project</name>
+        <file>
+            <name>$PROJ_DIR$\project\GPIO.c</name>
+        </file>
         <file>
             <name>$PROJ_DIR$\project\main.c</name>
         </file>
